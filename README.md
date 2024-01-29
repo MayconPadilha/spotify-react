@@ -84,3 +84,19 @@ import { faHome, faSearch, faGlobe } from '@fortawesome/free-solid-svg-icons';
 
 Agora, dentro da tag <span>, você pode usar os ícones assim:
 <span><FontAwesomeIcon icon={faSearch} /></span>
+
+# spotify-imersao
+
+start:
+
+npm run json-server
+
+-------------------------
+
+# spotify-imersao
+
+npm init -y
+
+npm install json-server@0.17.4
+
+npm run start

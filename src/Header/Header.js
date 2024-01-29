@@ -1,11 +1,10 @@
-import React from "react";
 import "./Header.css";
-import '../vars.css'
+import "../vars.css";
 import smallRight from "../assets/icons/small-right.png";
 import smallLeft from "../assets/icons/small-left.png";
 import search from "../assets/icons/search.png";
 
-const Header = () => {
+const Header = ({ searchInput, setSearchInput }) => {
   return (
     <nav class="header__navigation">
       <div class="navigation">
@@ -24,6 +23,8 @@ const Header = () => {
               type="text"
               maxlength="800"
               placeholder="O que você quer ouvir?"
+              value={searchInput}
+              onChange={(e) => setSearchInput(e.target.value)}
             />
           </div>
         </div>
