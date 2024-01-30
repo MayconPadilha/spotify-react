@@ -1,7 +1,7 @@
 .disclaimer-premium {
     grid-area: footer;
     background: linear-gradient(to right, #ae2896, #509bf5);
-    padding: 11px 24px 7px 15px;
+    padding: 6px 24px 7px 15px;
     display: flex;
     justify-content: space-between;
     color: #fff;

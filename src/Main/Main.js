@@ -49,6 +49,48 @@ const Main = ({ searchInput }) => {
     { image: Playlist13, name: "Indie" },
     { image: Playlist14, name: "Relax" },
     { image: Playlist15, name: "Música Latina" },
+    { image: Playlist15, name: "Música Latina" },
+    { image: Playlist15, name: "Música Latina" },
+    { image: Playlist15, name: "Música Latina" },
+    { image: Playlist15, name: "Música Latina" },
+    { image: Playlist15, name: "Música Latina" },
+    { image: Playlist15, name: "Música Latina" },
+    { image: Playlist15, name: "Música Latina" },
+    { image: Playlist15, name: "Música Latina" },
+    { image: Playlist15, name: "Música Latina" },
+    { image: Playlist15, name: "Música Latina" },
+    { image: Playlist15, name: "Música Latina" },
+    { image: Playlist15, name: "Música Latina" },
+    { image: Playlist15, name: "Música Latina" },
+    { image: Playlist15, name: "Música Latina" },
+    { image: Playlist15, name: "Música Latina" },
+    { image: Playlist15, name: "Música Latina" },
+    { image: Playlist15, name: "Música Latina" },
+    { image: Playlist15, name: "Música Latina" },
+    { image: Playlist15, name: "Música Latina" },
+    { image: Playlist15, name: "Música Latina" },
+    { image: Playlist15, name: "Música Latina" },
+    { image: Playlist15, name: "Música Latina" },
+    { image: Playlist15, name: "Música Latina" },
+    { image: Playlist15, name: "Música Latina" },
+    { image: Playlist15, name: "Música Latina" },
+    { image: Playlist15, name: "Música Latina" },
+    { image: Playlist15, name: "Música Latina" },
+    { image: Playlist15, name: "Música Latina" },
+    { image: Playlist15, name: "Música Latina" },
+    { image: Playlist15, name: "Música Latina" },
+    { image: Playlist15, name: "Música Latina" },
+    { image: Playlist15, name: "Música Latina" },
+    { image: Playlist15, name: "Música Latina" },
+    { image: Playlist15, name: "Música Latina" },
+    { image: Playlist15, name: "Música Latina" },
+    { image: Playlist15, name: "Música Latina" },
+    { image: Playlist15, name: "Música Latina" },
+    { image: Playlist15, name: "Música Latina" },
+    { image: Playlist15, name: "Música Latina" },
+    { image: Playlist15, name: "Música Latina" },
+    { image: Playlist15, name: "Música Latina" },
+    { image: Playlist15, name: "Música Latina" },
   ];
 
   return (
@@ -64,9 +106,9 @@ const Main = ({ searchInput }) => {
           <div className="offer__scroll-container">
             <div className="offer__list">
               <section className="offer__list-item">
-                {playlists.map((playlist, index) => (
+              {playlists.map((playlist, index) => (
                   <div className="cards" key={index}>
-                    <div className={`cards card${index + 1}`}>
+                    <div className={`cards card${(index % 15) + 1}`}>
                       <img src={playlist.image} alt="" />
                       <span>{playlist.name}</span>
                     </div>

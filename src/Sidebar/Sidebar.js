@@ -17,13 +17,13 @@ const Sidebar = () => {
       <ul>
         <li>
           <a href="">
-            <span><FontAwesomeIcon icon={faHome}/> </span>
+            <span class="fa fa-home"><FontAwesomeIcon icon={faHome}/> </span>
             <span>Início</span>
           </a>
         </li>
         <li>
           <a href="">
-          <span><FontAwesomeIcon icon={faSearch}/> </span>
+          <span class="fa fa-home"><FontAwesomeIcon icon={faSearch}/> </span>
             <span>Buscar</span>
           </a>
         </li>
@@ -33,10 +33,10 @@ const Sidebar = () => {
     <div class="library">
       <div class="library__content">
         <button class="library__button">
-          <span><FontAwesomeIcon icon={faBook}/> </span>
+          <span class="fa fas fa-book"><FontAwesomeIcon icon={faBook}/> </span>
           <span>Sua biblioteca</span>
         </button>
-        <span><FontAwesomeIcon icon={faPlus}/> </span>
+        <span class="fa fa-plus"><FontAwesomeIcon icon={faPlus}/> </span>
       </div>
 
       <div class="div-playlist">

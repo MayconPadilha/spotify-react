@@ -25,12 +25,12 @@
 
 .sidebar nav ul {
     list-style: none;
-    margin-top: 20px;
+    /* margin-top: 20px; */
     padding: 0px 20px 10px 20px;
 }
 
 .sidebar nav ul li {
-    padding: 10px 0px;
+    padding: 12px 0px;
 }
 
 .sidebar nav ul li a {
@@ -42,7 +42,7 @@
 
 .sidebar nav ul li .fa {
     font-size: 20px;
-    margin-right: 10px;
+    margin-right: 20px;
     font-weight: 300;
 }
 
@@ -81,7 +81,7 @@
     display: flex;
 }
 
-.library .library__button:hover{
+.library .library__button:hover, .library .library__content .fa-plus:hover{
     color: #fff;
 }
 
@@ -97,10 +97,12 @@
     display: flex;
     justify-content: space-between;
     height: 100%;
+    align-items: center;
 }
 
 .library .library__content .fa-plus {
-   margin: 24px 10px;
+    margin-right: 12px;
+    font-size: 16px;
 }
 
 .div-playlist{
@@ -167,7 +169,7 @@
 }
 
 .sidebar .cookies {
-    margin: 25px 20px;
+    margin: 12px 20px;
 }
 
 .sidebar .cookies a {
